@@ -9,7 +9,7 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 /**
  * @Author: WangYouzheng
  * @Date: 2020/8/18 18:40
- * @Description: 聊天服务端
+ * @Description: 聊天服务端 -- 主要实现的是处理，转发。
  */
 public class MyChatServer {
 	public static void main(String[] args) {

@@ -27,7 +27,9 @@ public class MyChatClient {
 			Channel channel = bootstrap.connect("localhost", 8899).sync().channel();
 			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 			for (;;) {
-				channel.writeAndFlush(br.readLine() + "\r\n");
+				String s = br.readLine();
+				System.out.println(s);
+				channel.writeAndFlush(s + "\r\n");
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
