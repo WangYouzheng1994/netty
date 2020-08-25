@@ -1,6 +1,5 @@
-package com.wyz.netty.fourthexample;
+package com.wyz.netty.fifthexample;
 
-import com.wyz.netty.secondexample.MyServerInitializer;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.EventLoopGroup;

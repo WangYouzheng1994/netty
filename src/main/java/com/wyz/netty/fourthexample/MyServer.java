@@ -13,7 +13,7 @@ import io.netty.handler.logging.LoggingHandler;
  * @author WangYouzheng
  * @version 1.0
  * @since: 2020/8/18 23:06
- * @Description:
+ * @Description: netty 心跳
  */
 public class MyServer {
     public static void main(String[] args) {

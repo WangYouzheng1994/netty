@@ -1,4 +1,4 @@
-package com.wyz.netty.fourthexample;
+package com.wyz.netty.fifthexample;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
